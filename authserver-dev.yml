@@ -4,3 +4,7 @@ spring:
     username: root
     password: yunaxiaozhou1
     driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      auto-commit: false
+      maximum-pool-size: 100
+      minimum-idle: 10
