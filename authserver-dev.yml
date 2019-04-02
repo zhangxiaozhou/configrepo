@@ -7,4 +7,4 @@ spring:
     hikari:
       auto-commit: false
       maximum-pool-size: 100
-      minimum-idle: 10
+      minimum-idle: 20
