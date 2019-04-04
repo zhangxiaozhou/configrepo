@@ -12,6 +12,7 @@ security:
       client-secret: secret
       access-token-uri: http://localhost:8080/auth/oauth/token
       user-authorization-uri: http://localhost:8080/auth/oauth/authorize
+      grant_type: authorization_code
       scope: all
   resource:
     jwt:
