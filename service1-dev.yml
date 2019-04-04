@@ -7,6 +7,10 @@ spring:
 
 security:
   oauth2:
-    resource:
-      jwt:
-        key-uri: http://localhost:8080/auth/oauth/token_key
+    client:
+      client-id: service1
+      client-secret: secret
+      scope: all
+  resource:
+    jwt:
+      key-uri: http://localhost:8080/auth/oauth/token_key
