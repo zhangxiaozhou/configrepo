@@ -16,3 +16,4 @@ security:
   resource:
     jwt:
       key-uri: http://localhost:8080/auth/oauth/token_key
+    token-info-uri: http://localhost:8080/auth/oauth/check_token
